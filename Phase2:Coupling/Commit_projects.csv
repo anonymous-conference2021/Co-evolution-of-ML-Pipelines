@@ -1,0 +1,26 @@
+project_name,folder_name,#source,#test,#other,#data,#dvc_data,#dvc_pipeline,date_F_dvc,date_L_dvc,first_dvc_commit,date_first_dvc
+MikeG27/BCI_Image_EEG_Generator,BCI_Image_EEG_Generator,37,1,25,0,1,6,Fri Dec 20 11:04:54 2019,Tue Feb  4 16:40:07 2020,b27cb2acd158e20d0cbd5f6fb7b561a0c5a102b3,1576857894
+bmeg/bmeg-etl,bmeg-etl,261,66,184,253,35,173,Mon Nov 19 13:24:16 2018,Thu Jan  9 12:34:55 2020,66eddaea35b7603d2ac568c27f984f4bd6b301af,1541790499
+BoiseState/bookdata-tools,bookdata-tools,113,4,27,5,9,121,Tue Sep 24 18:15:37 2019,Wed Mar  4 15:03:18 2020,4ebba0bd1757ced225787843a45fc35ba418e393,1543948061
+DAGsHub/client,client,11,1,12,2,0,2,Wed Oct 30 09:35:37 2019,Sun Nov 10 10:20:19 2019,cacc97ac85e41467674cc2ac10feedfae312a42b,1572442537
+wildlyclassyprince/data-playground,data-playground,164,0,109,59,29,0,Sat Dec 14 15:24:34 2019,Mon Dec 16 06:37:48 2019,6f9e1e4cd8328dba71d55f7c1fab7da3c59ddb7f,1536839110
+aerubanov/DS_for_Air,DS_for_Air,60,16,1332,19,3,7,Wed Oct 30 10:07:33 2019,Fri Mar  6 10:03:19 2020,d9c96a7dde784fc6ca2ece4ab0283224cb6173c4,1572444453
+src-d/formatml,formatml,88,6,26,10,1,12,Wed Jul 10 21:45:02 2019,Sat Aug 10 04:01:26 2019,0cbd4743c4584251e0101a96f32e42f0067c979e,1562796229
+shuiblue/INTRUDE-refactor,INTRUDE-refactor,32,0,33,0,2,2,Wed Sep 25 00:15:30 2019,Tue Oct 15 20:28:17 2019,39d8702e2a768c0b6478cc611a1f64fc1e99207f,1569384867
+AlessandroVol23/kdd-cup-2019,kdd-cup-2019,110,2,64,3,36,0,Sat May 11 03:05:04 2019,Wed Jul  3 14:27:13 2019,95bae3a511d6555d8ab7f7626abcce5989ebf3b1,1557414584
+kjappelbaum/learn_mof_ox_state,learn_mof_ox_state,29,0,205,28288,3,4,Tue Sep 17 06:52:50 2019,Tue Nov  5 05:59:38 2019,2541ce2543d8bf13d2a684e0f09a7cd40f2f5330,1568716152
+kaiml/lease-eda,lease-eda,12,0,20,3,3,0,Sat Oct 12 03:36:47 2019,Fri Oct 18 14:00:51 2019,29be5b653f419146279e585407e475953fa10596,1570865807
+jmhsi/lendingclub,lendingclub,182,11,68,129,5,10,Sat Sep 21 23:59:47 2019,Wed Feb 12 13:09:18 2020,31c1de723800fa61b7c4bf0666693ef4087b5b54,1517884308
+arsalanc-v2/mailsense,mailsense,18,0,16,3,2,13,Mon May 27 09:48:38 2019,Wed Aug  7 09:43:11 2019,5fc8bbc0b6aa17831a8aeccf842146821c67acab,1558761636
+deep-projects/pcam-with-dvc-cc,pcam-with-dvc-cc,2,0,51,0,0,2,Fri Jun 14 02:21:06 2019,Wed Jun 19 12:19:48 2019,d7b2f30b7310a373047d947d35a029ed1e854564,1560470740
+deep-projects/pcam-with-dvc-cc-sshfs,pcam-with-dvc-cc-sshfs,2,0,34,6,0,2,Fri Jun 14 02:18:59 2019,Sun Jun 16 08:52:53 2019,efe9e886d3bd427d87d002c8bfb7f925a6923442,1560470958
+phramer/phramer,phramer,68,0,22,2,1,2,Tue Nov  5 04:55:54 2019,Tue Nov  5 10:21:32 2019,f32e9de334f85666959f2f863645eb073d97d5fd,1572945622
+piojanu/Planning-in-Imagination,Planning-in-Imagination,74,8,141,19,3,4,Tue Mar 12 06:47:39 2019,Mon Apr  8 05:14:29 2019,2f1a37bf6991036418efd81ff5e389ff42843672,1522413653
+gmrukwa/publication-domain-discernibility,publication-domain-discernibility,14,2,7,5,3,5,Sat Jun  8 04:13:19 2019,Sat Aug 31 15:11:11 2019,377dbcb788b7c3b9e31b34a17f71bc5017e780f8,1551006959
+MIR-MU/regularized-embeddings,regularized-embeddings,6,0,11,106,0,1,Wed Aug 21 06:18:36 2019,Fri Nov  1 11:32:21 2019,e1cbeadb244d452e451f2c4c61f9d1e19aae1f36,1560379713
+antonkulaga/rna-seq,rna-seq,263,5,189,301,13,0,Sat Jan 25 12:55:39 2020,Tue Feb 25 13:38:48 2020,089d3fc172b36227a6a832b7827e48382a58bcd2,1489367172
+opt-out-tools/study-online-misogyny,study-online-misogyny,41,6,35,1,5,5,Wed Oct 16 07:42:03 2019,Tue Feb 25 08:26:26 2020,54354194526ffa007bd1aea1e53978d18be7a706,1571226123
+CandelaV/UNHCRs_population_of_concern_HDX,UNHCRs_population_of_concern_HDX,18,2,64,0,1,0,Wed May  8 17:22:09 2019,Tue Jun  4 14:01:03 2019,12756c8f83f58393fd7d409a8d024566fbca4e56,1557350529
+spacy-pl/utils,utils,49,1,28,2,12,51,Sat Nov  3 14:16:21 2018,Wed May 22 12:02:11 2019,5f84e58aaf760842c184eee8c3ad8bc83c33c348,1540813237
+Valentyn1997/xray,xray,74,0,35,4,1,0,Fri May 10 12:24:01 2019,Thu Jul  4 20:23:56 2019,1c21e1472cb45e3889e9c9931413a8812cf82a5d,1557089061
+yukw777/yureka,yureka,37,19,19,7,2,33,Sun May  6 00:31:09 2018,Tue Jun 19 23:54:01 2018,4eb07e0fc58687ce7e5c2222cd03ad65da1fa2ac,1525569910

@@ -13,8 +13,8 @@
     * [internal DVC categories coupling](#internal-dvc-categories-coupling-1)
     * [coupling with source code artifacts](#coupling-with-source-code-artifacts-1)
 * [Phase3: Complexity evolution of ML pipelines](#phase3-complexity-evolution-of-ml-pipelines)
-  * [McCabe vs Halstead complexity](#halstead-vs-mcCabe)
-  * [McCabe complexity](#mcCabe-complexity)
+  * [McCabe vs Halstead complexity](#halstead-vs-mccabe)
+  * [McCabe complexity](#mccabe-complexity)
   * [Halstead complexity](#halstead-complexity)
 
 
@@ -62,17 +62,17 @@ In the second part of this study, we studied the coupling between different cate
 
 
 <p float="left">
- <img src="https://user-images.githubusercontent.com/73168850/97638978-1772ce00-1a14-11eb-9344-aa5b2306fe8d.png" width="300" />
- <img src="https://user-images.githubusercontent.com/73168850/97638979-180b6480-1a14-11eb-80e2-6d3af4ddb603.png" width="300" />
- <img src="https://user-images.githubusercontent.com/73168850/97638981-180b6480-1a14-11eb-8b5f-0644d1203678.png" width="300" />
+ <img src="https://user-images.githubusercontent.com/73168850/97638978-1772ce00-1a14-11eb-9344-aa5b2306fe8d.png" width="250" />
+ <img src="https://user-images.githubusercontent.com/73168850/97638979-180b6480-1a14-11eb-80e2-6d3af4ddb603.png" width="250" />
+ <img src="https://user-images.githubusercontent.com/73168850/97638981-180b6480-1a14-11eb-8b5f-0644d1203678.png" width="250" />
 </p>
 
 #### coupling with source code artifacts
 
 <p float="left">
- <img src="https://user-images.githubusercontent.com/73168850/97638999-1e99dc00-1a14-11eb-8245-cb22d7ccd638.png" width="300" />
- <img src="https://user-images.githubusercontent.com/73168850/97639000-1e99dc00-1a14-11eb-8a51-dee5c05ca4f9.png" width="300" />
- <img src="https://user-images.githubusercontent.com/73168850/97639002-1e99dc00-1a14-11eb-8901-5f6c56331617.png" width="300" />
+ <img src="https://user-images.githubusercontent.com/73168850/97638999-1e99dc00-1a14-11eb-8245-cb22d7ccd638.png" width="250" />
+ <img src="https://user-images.githubusercontent.com/73168850/97639000-1e99dc00-1a14-11eb-8a51-dee5c05ca4f9.png" width="250" />
+ <img src="https://user-images.githubusercontent.com/73168850/97639002-1e99dc00-1a14-11eb-8901-5f6c56331617.png" width="250" />
 </p>
 
 ### Pull Request-level analysis (10 projects):
@@ -80,18 +80,18 @@ In the second part of this study, we studied the coupling between different cate
 
 
 <p float="left">
- <img src="https://user-images.githubusercontent.com/73168850/97639014-25c0ea00-1a14-11eb-8ed7-90b034623538.png" width="300" />
- <img src="https://user-images.githubusercontent.com/73168850/97639016-25c0ea00-1a14-11eb-8e58-9396dc8083aa.png" width="300" />
- <img src="https://user-images.githubusercontent.com/73168850/97639019-26598080-1a14-11eb-8ecc-5a9509837141.png" width="300" />
+ <img src="https://user-images.githubusercontent.com/73168850/97639014-25c0ea00-1a14-11eb-8ed7-90b034623538.png" width="250" />
+ <img src="https://user-images.githubusercontent.com/73168850/97639016-25c0ea00-1a14-11eb-8e58-9396dc8083aa.png" width="250" />
+ <img src="https://user-images.githubusercontent.com/73168850/97639019-26598080-1a14-11eb-8ecc-5a9509837141.png" width="250" />
 </p>
 
 #### coupling with source code artifacts
 
 
 <p float="left">
- <img src="https://user-images.githubusercontent.com/73168850/97638949-088c1b80-1a14-11eb-9363-6c113f020527.png" width="300" />
- <img src="https://user-images.githubusercontent.com/73168850/97638950-0924b200-1a14-11eb-8e91-f2e9f34c9a0e.png" width="300" />
- <img src="https://user-images.githubusercontent.com/73168850/97638951-0924b200-1a14-11eb-80e2-c0b8ff37575f.png" width="300" />
+ <img src="https://user-images.githubusercontent.com/73168850/97638949-088c1b80-1a14-11eb-9363-6c113f020527.png" width="250" />
+ <img src="https://user-images.githubusercontent.com/73168850/97638950-0924b200-1a14-11eb-8e91-f2e9f34c9a0e.png" width="250" />
+ <img src="https://user-images.githubusercontent.com/73168850/97638951-0924b200-1a14-11eb-80e2-c0b8ff37575f.png" width="250" />
 </p>
 
 ## Phase3: Complexity evolution of ML pipelines

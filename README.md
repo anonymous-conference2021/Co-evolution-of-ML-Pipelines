@@ -64,10 +64,10 @@ In the second part of this study, we studied the coupling between different cate
 In the following we will present a sample of script that we used to compute the coupling between the "DVC pipeline category" and "source code artifacts(source, test, data, gitignore, others)":
 
 * Step1: 
-you have to download all the projects, we used in the analysis of the coupling in commit level analysis in the file "Commit_projects.csv".
+you have to download all the projects, we used in the analysis of the coupling in commit level mentioned in the file "Commit_projects.csv".
 
 * Step2:
-Provide the path of the repository where the projects were download as argument <arg1>
+Provide the path of the repository where the projects were downloaded as argument <arg1>
 
 * Step3:
 Execute the script:
@@ -82,8 +82,17 @@ We present in the following a script sample we used to compute the statistical s
 
 The results of the coupling are shown in the following plots of the commit and pull request level analysis.
 
-* Step1:
-you have to download all the projects, we used in the analysis of the coupling in pull request level analysis in the file "Pull_request_projects.csv".
+* Step1: 
+you have to download all the projects, we used in the analysis of the coupling in pull request level mentioned in the file "Pull_request_projects.csv".
+
+* Step2:
+Provide the path of the repository where the projects were downloaded as argument <arg1>
+
+* Step3:
+Execute the script:
+python3 significance_pr.py <path_source_reposiotry>
+
+
 
 ### Commit-level analysis (25 projects):
 #### internal DVC categories coupling

@@ -160,19 +160,9 @@ def get_files_type_tool(list):
 		language = languistic(file)
 		if language:
 			dic[file] = language
-		# print (file, commit, language)
-	# 	dic [file] = language
+
+
 	return dic
-
-		# if language == '':
-		# 	others[file] = ""
-		# else:
-		# 	others[file] = language
-
-
-		# if language in source_language:
-
-	# return others
 
 
 # as requested in comment
@@ -202,25 +192,22 @@ def filter_first_date(date, data_file):
 		if difference >= 0:
 			# print (c, date_c)
 			list_return.append(c)
-		# else:
-			# print (c)
-		# print (c, date_c)
+
 
 	return list_return
 
 
-# l= languistic("/home/amine/Documents/DVC_project/sources/INTRUDE-refactor/.ipynb_checkpoints/INTRUDE-refactor-checkpoint.ipynb")
-# print (l)
+
 if __name__ == '__main__':
 	target = "pipeline_file"
-	path_sources = '/home/amine/Documents/DVC_project/stats/stats_files_classification2.csv'
-	investigation_output = "/home/amine/Documents/DVC_project/coupling_result/investigation/coupling_"+target+".csv"
+	path_sources = '../../Commit_projects.csv'
+	investigation_output = "output/details_coupling_"+target+".csv"
 
 	
-	output = "/home/amine/Documents/DVC_project/coupling_result/coupling_"+target+".csv"
+	output = "output/coupling_"+target+".csv"
 	header = ['project','gitignore=>DVC_data','DVC_data=>gitignore', 'data=>DVC_data','DVC_data=>data','Source=>DVC_data','DVC_data=>source','test=>DVC_data',\
 	'DVC_data=>test','others=>DVC_data','DVC_data=>others']
-	# res = [proj, coupl_data_dvc, coupl_dvc_data, coupl_source_dvc, coupl_dvc_source, coupl_test_dvc, coupl_dvc_test, coupl_other_dvc, coupl_dvc_other]
+
 	if os.path.exists(investigation_output):
 		os.remove(investigation_output)
 	if os.path.exists(output):
@@ -239,7 +226,7 @@ if __name__ == '__main__':
 		first_dvc = str(row['first_dvc_commit'])
 		first_dvc_date = str(row['date_first_dvc'])
 
-		path_rep = "/dataset/"+folder_name+".csv"
+		path_rep = "../../dataset/"+folder_name+".csv"
 
 		source = path_to_repository+"/"+folder_name
 		os.chdir(source)
@@ -267,14 +254,12 @@ if __name__ == '__main__':
 				if row[0] == "gitignore_file":
 					gitignore_file = ast.literal_eval(row[1])
 					
-		#coupling 
-		
-		# print (data_file)
-		#coupling 
+
+
 		gitignore_file= filter_first_date(first_dvc_date, gitignore_file)
 
 		files_source= filter_first_date(first_dvc_date, files_source)
-		# print (files_source)
+
 		data_file=filter_first_date(first_dvc_date, data_file)
 		test_file=filter_first_date(first_dvc_date, test_file)
 		dvc_file=filter_first_date(first_dvc_date, dvc_file)
@@ -440,52 +425,4 @@ if __name__ == '__main__':
 		res = [folder_name, coupl_git_dvc, coupl_dvc_git, coupl_data_dvc, coupl_dvc_data, coupl_source_dvc, coupl_dvc_source, coupl_test_dvc, coupl_dvc_test, coupl_other_dvc, coupl_dvc_other]
 		write_results (res, output)
 		write_results (res_in, investigation_output)
-				# row[0]
-			# for cnt, line in enumerate(read_obj):
-			# 	newline = line.rstrip('\r\n')
-			# 	print (newline)
-
-
-
-		# df_data = pd.read_csv(path_rep)
-		# df_tr = df_data.T
-		# # print (df_tr)
-		# # new_header = df_tr.iloc[0] #grab the first row for the header
-		# # print (new_header)
-		# # df_tr = df_tr[0:] #take the data less the header row
-		# # df_tr.columns = new_header
-		# df_tr.to_csv(out,index=False)
-		# print (df_tr)
-		# for index, a in df_tr.iterrows():
-			
-		# 	files_source = ast.literal_eval(a['source_file'])
-		# 	test_file = ast.literal_eval(a['test_file'])
-		# 	dvc_file = ast.literal_eval(a['dvc_file'])
-		# 	other_file = ast.literal_eval(a['other_file'])
-
-		# 	print (files_source)
-
-
-
-		# print (dic)
-		# source_files_tool, other_files_tool = get_files_type_tool(list_all_files)
-
-
-		# source_test_files = search_source_test_files_tool(list_all_files)
-
-		
-
-
-		# test_files = search_test_files(list_all_files)
-		# list_all_files = Diff(list_all_files , test_files)
-		
-		# source_files_extension = search_source_files_extension(list_all_files)
-		# list_all_files = list_all_files - source_files_extension
-
-		# source_files_tool = search_source_files_tool(list_all_files)
-		# other_files = list_all_files - source_files_tool
-
-
-
-
 

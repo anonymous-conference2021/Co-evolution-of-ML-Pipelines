@@ -80,8 +80,6 @@ We present in the following a script sample we used to compute the statistical s
 
 
 
-The results of the coupling are shown in the following plots of the commit and pull request level analysis.
-
 * Step1: 
 you have to download all the projects, we used in the analysis of the coupling in pull request level mentioned in the file "Pull_request_projects.csv".
 
@@ -93,6 +91,7 @@ Execute the script:
 python3 significance_pr.py <path_source_reposiotry>
 
 
+The results of the coupling are shown in the following plots of the commit and pull request level analysis.
 
 ### Commit-level analysis (25 projects):
 #### internal DVC categories coupling

@@ -6,6 +6,7 @@
 * [About the Project](#about-the-project)
 * [Phase1: DVC projects caracteristics](#phase1-dvc-projects-caracteristics)
 * [Phase2: DVC coupling with source code artifacts](#phase2-dvc-coupling-with-source-code-artifacts)
+  * [Description of coupling-statiscal test scripts](#description-of-coupling-statiscal-test-scripts)
   * [Commit-level analysis (25 projects)](#commit-level-analysis-25-projects)
     * [internal DVC categories coupling](#internal-dvc-categories-coupling)
     * [coupling with source code artifacts](#coupling-with-source-code-artifacts)
@@ -57,6 +58,33 @@ The following figure show the remote storage used in these repositories.
 ## Phase2: DVC coupling with source code artifacts
 
 In the second part of this study, we studied the coupling between different categories of dvc and source code artifacts at two levels:
+
+### Description of coupling-statiscal test scripts
+
+In the following we will present a sample of script that we used to compute the coupling between the "DVC pipeline category" and "source code artifacts(source, test, data, gitignore, others)":
+
+* Step1: 
+you have to download all the projects, we used in the analysis of the coupling in commit level analysis in the file "Commit_projects.csv".
+
+* Step2:
+Provide the path of the repository where the projects were download as argument <arg1>
+
+* Step3:
+Execute the script:
+python3 coupled_commits.py <path_source_reposiotry>
+
+
+
+We use a χ2 chi-squared statistical test to validate the statistical significance of the coupling between changes to A and B, for example (DVC-data and test).
+We present in the following a script sample we used to compute the statistical significance between "dvc data category" and "source code artifacts(source, test, data, gitignore, others)".
+
+
+
+The results of the coupling are shown in the following plots of the commit and pull request level analysis.
+
+* Step1:
+you have to download all the projects, we used in the analysis of the coupling in pull request level analysis in the file "Pull_request_projects.csv".
+
 ### Commit-level analysis (25 projects):
 #### internal DVC categories coupling
 
